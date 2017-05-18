@@ -1,1 +1,86 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet"/>
+  <title>Chris's Java Blog</title>
+</head>
+<body>
+  <h1>Some discussion on an array of topics</h1>
+  <h3><strong>What is the difference between switch and
+    if/else? When would you use one versus the other?</strong></h3>
+    <p>The switch case can be more compact and allows the user to decide which case
+      to be excuted.  They are easy to edit because the syntax is minimal.
+      <br><br>
+      With if/else statements, there is more room for complexity.  Unlike switch
+      statements, if/else statements can have multiple choice of expressions instead
+      of having only on expression multiple choices.
+      <br><br>I would use if and else when dealing with any type of user input that
+      would have a multiple variations of similar data.  I would use switch
+      over if/else if I were trying to excute more nominal input like dates, demographics,
+      and such.</p><hr>
+      <h3><strong>When would you use = vs == vs .equals? Explain what each
+        of these does and in which cases you should use them.</strong></h3>
+        <p>So =, ==, and .equals() serve in 3 different ways with really no similar
+          functions...
+
+          <br><br>It is worth noting that each expression is dependent
+          on its varibable, or type of variable rather.
+
+          <br><br>In the case of the
+          simple = sign, this can be used to assign or store a type of variable.
+          Let's say you simple want to assign a int variable x (int x), you would use
+          the = to assign a value to x (int x = 1). In my example the int x has a
+          value of one.  The = has a purpose of assigning values to variables(String, int,
+          double, boolean, etc.).
+
+          <br><br>Now the == sign is basically saying out load "IS EQUAL TO", however, we only
+          comparing references, not values.  So, something like 1 == 1
+          would be true because == is checking to see if the two references are to th same object.
+
+
+          <br><br>.equals() Compares values for equality. This is commonly used with String
+          type variables as each value is checked character by character against
+          the variable t is being crossed referenced to.  I would use the .equals()
+          when dealing with password statements.  I would use a.equals(b); to compare
+          the users stored password of (b) against the freshly inputed password which is
+          the (a) string. If the statement is true then the passwords would match.<hr>
+
+          <h3><strong>Int vs. Double: What are their differences?</strong></h3>
+          <p>To be clear, both varibales deal with any - of + intergers.  The difference
+            lies with the amount of decimals being stored, because there is a
+            different amount of bytes used to store a int and a double respectively.<br><br>
+            An int only uses 4 bytes and can only store whole numbers ranging from
+            -2,147,483,648 to 2,147,483,647 on a 32 bit system.
+            <br><br>
+            So one would ask, why would I need to use double when int has a range like that?
+            Well the answer is because it doesnt take very long for a whole number to
+            be manipulated into a fraction or a int that would not want to be rounded
+            to its nearest whole number i.e 99.33 like  money.  In this case you would want to allow a double
+            fraction to hold the value of this variable to allow for more precision and more
+            accurate solutions for later reference.
+            <br><br>A double uses 8 bytes.
+            <hr>
+            <h3><strong>What happens when you include import java.util.Scanner?<br>
+            Where does it come from? </strong></h3>
+            <p>Well, simply put, the java.util.Scanner is a class in the java library.
+              The util.Scanner allows the system to take input to be stored through the
+              use of external hardware like a keyboard.  The util.Scanner has the following
+              methods: nextInt(), nextLong(), nextFloat(), nextDouble(), next(),
+              nextLine().
+            <br><br>
+            There are two class constructors.  one takes an InputStream object as a
+            parameter and the other takes a FileReader object as a parameter.</p>
+            <hr>
+            <h3>What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h3>
+            <p> A while loop statement allows to repeatedly executes a target
+               statement as long as a given condition is true.
+            <br><br>
+            For loops allow you to efficiently write a loop that needs to excute a
+            specific number of times.  Example: for(initialization; condition;increment/
+            decrement) | for(int x = 1;x <=5,x++).
+            <br><br>
+            A do while loop looks similar to a while loop, except that a do while loop
+            is guaranteed to execute at least one time which has its advantages.
+            <hr>
+  </body>
+  </html>
