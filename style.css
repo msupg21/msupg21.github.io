@@ -1,0 +1,19 @@
+h1 {
+  color: #000;
+}
+
+h3 {
+  color: red;
+}
+
+body {
+  background-color: #4AFE26;
+}
+
+p {
+  color: grey;
+}
+
+* {
+  font-family: serif;
+}
