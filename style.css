@@ -1,19 +1,32 @@
 h1 {
   color: #000;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 h3 {
   color: red;
+  margin-left: 40px;
 }
 
 body {
-  background-color: #4AFE26;
+  background-image: url("http://wallpaper-gallery.net/images/ocean-wallpaper/ocean-wallpaper-23.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-p {
+{
   color: grey;
 }
 
 * {
   font-family: serif;
+}
+
+p {
+  font-weight: 600;
+  margin-left: 40px;
+  margin-right: 40px;
 }
